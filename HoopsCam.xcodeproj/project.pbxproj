@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E3703F2044013B00027174 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3703E2044013B00027174 /* RecordViewController.swift */; };
+		18E37074204422F400027174 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E37073204422F400027174 /* SettingViewController.swift */; };
+		18E3708E2044386500027174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3707D2044386500027174 /* Assets.xcassets */; };
+		18E370922044386500027174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E370832044386500027174 /* main.m */; };
+		1B8CBC272044F99700E6862C /* Local Podspecs in Resources */ = {isa = PBXBuildFile; fileRef = 1B8CBC132044F99700E6862C /* Local Podspecs */; };
+		1B8CBC282044F99700E6862C /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 1B8CBC142044F99700E6862C /* Headers */; };
+		1B8CBC292044F99700E6862C /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 1B8CBC152044F99700E6862C /* Manifest.lock */; };
+		1B8CBC2A2044F99700E6862C /* MBProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 1B8CBC162044F99700E6862C /* MBProgressHUD */; };
+		1B8CBC2B2044F99700E6862C /* Target Support Files in Resources */ = {isa = PBXBuildFile; fileRef = 1B8CBC172044F99700E6862C /* Target Support Files */; };
+		1B8CBC5E2046162C00E6862C /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC592046162C00E6862C /* BrightnessView.swift */; };
+		1B8CBC5F2046162C00E6862C /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC5A2046162C00E6862C /* SwiftHSVColorPicker.swift */; };
+		1B8CBC602046162C00E6862C /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC5B2046162C00E6862C /* ColorWheel.swift */; };
+		1B8CBC612046162C00E6862C /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC5C2046162C00E6862C /* SelectedColorView.swift */; };
+		1B8CBC622046162C00E6862C /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC5D2046162C00E6862C /* ColorUtils.swift */; };
+		1B8CBC672049EFF500E6862C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CBC662049EFF500E6862C /* EventsViewController.swift */; };
+		523E1DB19F7572521AEFF4FE /* libPods-HoopsCamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1472199A19E2CA0A1303436 /* libPods-HoopsCamTests.a */; };
+		68161E3A204014C1002040A8 /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68161E33204014C1002040A8 /* AudioRecorder.m */; };
+		68161E412041C0A8002040A8 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 68161E402041C0A8002040A8 /* Utils.m */; };
+		68B654732044B86A00C55EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B654702044B86A00C55EA1 /* Main.storyboard */; };
+		68B654742044B86A00C55EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B654712044B86A00C55EA1 /* LaunchScreen.storyboard */; };
+		68B654752044B86A00C55EA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68B654722044B86A00C55EA1 /* Info.plist */; };
+		6B22A2FF1E28AC1C00E6D0ED /* CameraHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B22A2FE1E28AC1C00E6D0ED /* CameraHelper.m */; };
+		6B60411E1E28EBEE0050036B /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B60411D1E28EBEE0050036B /* ScreenRecorder.m */; };
+		6B6041211E28EC180050036B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6041201E28EC180050036B /* CoreGraphics.framework */; };
+		76B48E365344C40BFEA5FE3F /* libPods-HoopsCamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCE09339B7F65565539E7B8 /* libPods-HoopsCamUITests.a */; };
+		C78490AF3BED002AD4FDBB14 /* libPods-HoopsCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02124F3B0E9404DFD6F4138D /* libPods-HoopsCam.a */; };
+		FC8CF1B01BCBC47200395ED0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF1AF1BCBC47200395ED0 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8CBC1F2044F99700E6862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8CBC182044F99700E6862C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F03DA2349D93EBAB731CCE4E9CCF88C;
+			remoteInfo = MBProgressHUD;
+		};
+		1B8CBC212044F99700E6862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8CBC182044F99700E6862C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD1C510509B84888ACB64BAC4DF061A0;
+			remoteInfo = "Pods-HoopsCam";
+		};
+		1B8CBC232044F99700E6862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8CBC182044F99700E6862C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99476E5FE9C127312705B190DD5E93F9;
+			remoteInfo = "Pods-HoopsCamTests";
+		};
+		1B8CBC252044F99700E6862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8CBC182044F99700E6862C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 764D71794758482A2ED5E4F43A490E17;
+			remoteInfo = "Pods-HoopsCamUITests";
+		};
+		FC8CF1C21BCBC47200395ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8CF1A01BCBC47100395ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8CF1A71BCBC47200395ED0;
+			remoteInfo = videoRecord;
+		};
+		FC8CF1CD1BCBC47200395ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8CF1A01BCBC47100395ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8CF1A71BCBC47200395ED0;
+			remoteInfo = videoRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02124F3B0E9404DFD6F4138D /* libPods-HoopsCam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoopsCam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B10AC517A0E1171DB57AD9 /* Pods-HoopsCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCamTests/Pods-HoopsCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		18E3703D2044013B00027174 /* HoopsCam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoopsCam-Bridging-Header.h"; sourceTree = "<group>"; };
+		18E3703E2044013B00027174 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		18E37073204422F400027174 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		18E3707D2044386500027174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E370832044386500027174 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B8CBC132044F99700E6862C /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Local Podspecs"; path = "Pods/Local Podspecs"; sourceTree = "<group>"; };
+		1B8CBC142044F99700E6862C /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		1B8CBC152044F99700E6862C /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Manifest.lock; path = Pods/Manifest.lock; sourceTree = "<group>"; };
+		1B8CBC162044F99700E6862C /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MBProgressHUD; path = Pods/MBProgressHUD; sourceTree = "<group>"; };
+		1B8CBC172044F99700E6862C /* Target Support Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Target Support Files"; path = "Pods/Target Support Files"; sourceTree = "<group>"; };
+		1B8CBC182044F99700E6862C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		1B8CBC592046162C00E6862C /* BrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
+		1B8CBC5A2046162C00E6862C /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
+		1B8CBC5B2046162C00E6862C /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		1B8CBC5C2046162C00E6862C /* SelectedColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
+		1B8CBC5D2046162C00E6862C /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		1B8CBC662049EFF500E6862C /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		22A6E0D3DC0286EDCF42586A /* Pods-HoopsCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCam/Pods-HoopsCam.release.xcconfig"; sourceTree = "<group>"; };
+		2E0F7F31B843177FF31E48EA /* Pods-HoopsCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCam/Pods-HoopsCam.debug.xcconfig"; sourceTree = "<group>"; };
+		42463659D6862E5F79A6352D /* Pods-HoopsCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCamUITests/Pods-HoopsCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CCE09339B7F65565539E7B8 /* libPods-HoopsCamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoopsCamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68161E32204014C1002040A8 /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		68161E33204014C1002040A8 /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorder.m; sourceTree = "<group>"; };
+		68161E3F2041C0A8002040A8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		68161E402041C0A8002040A8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		68B654702044B86A00C55EA1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = HoopsCam/Main.storyboard; sourceTree = "<group>"; };
+		68B654712044B86A00C55EA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HoopsCam/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B654722044B86A00C55EA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HoopsCam/Info.plist; sourceTree = "<group>"; };
+		6B22A2FD1E28AC1C00E6D0ED /* CameraHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHelper.h; sourceTree = "<group>"; };
+		6B22A2FE1E28AC1C00E6D0ED /* CameraHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraHelper.m; sourceTree = "<group>"; };
+		6B60411C1E28EBEE0050036B /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
+		6B60411D1E28EBEE0050036B /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
+		6B6041201E28EC180050036B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1472199A19E2CA0A1303436 /* libPods-HoopsCamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoopsCamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38E60CAE2E1153AD207C5A4 /* Pods-HoopsCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCamUITests/Pods-HoopsCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D93405C49C848BC61BD228E6 /* Pods-HoopsCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopsCamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoopsCamTests/Pods-HoopsCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8CF1A81BCBC47200395ED0 /* HoopsCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopsCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8CF1AE1BCBC47200395ED0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC8CF1AF1BCBC47200395ED0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC8CF1C11BCBC47200395ED0 /* HoopsCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopsCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8CF1CC1BCBC47200395ED0 /* HoopsCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopsCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8CF1A51BCBC47200395ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6041211E28EC180050036B /* CoreGraphics.framework in Frameworks */,
+				C78490AF3BED002AD4FDBB14 /* libPods-HoopsCam.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1BE1BCBC47200395ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523E1DB19F7572521AEFF4FE /* libPods-HoopsCamTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1C91BCBC47200395ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B48E365344C40BFEA5FE3F /* libPods-HoopsCamUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E3703C2044000400027174 /* hoopscam */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CBC582046161D00E6862C /* ColorPicker */,
+				68B654722044B86A00C55EA1 /* Info.plist */,
+				68B654712044B86A00C55EA1 /* LaunchScreen.storyboard */,
+				68B654702044B86A00C55EA1 /* Main.storyboard */,
+				1B8CBC662049EFF500E6862C /* EventsViewController.swift */,
+				18E3703D2044013B00027174 /* HoopsCam-Bridging-Header.h */,
+				18E3703E2044013B00027174 /* RecordViewController.swift */,
+				18E37073204422F400027174 /* SettingViewController.swift */,
+				FC8CF1AE1BCBC47200395ED0 /* AppDelegate.h */,
+				FC8CF1AF1BCBC47200395ED0 /* AppDelegate.m */,
+				18E3707D2044386500027174 /* Assets.xcassets */,
+				18E370832044386500027174 /* main.m */,
+				68161E3E2041C0A8002040A8 /* utils */,
+			);
+			name = hoopscam;
+			sourceTree = "<group>";
+		};
+		1B8CBC192044F99700E6862C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CBC202044F99700E6862C /* libMBProgressHUD.a */,
+				1B8CBC222044F99700E6862C /* libPods-HoopsCam.a */,
+				1B8CBC242044F99700E6862C /* libPods-HoopsCamTests.a */,
+				1B8CBC262044F99700E6862C /* libPods-HoopsCamUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8CBC582046161D00E6862C /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CBC592046162C00E6862C /* BrightnessView.swift */,
+				1B8CBC5D2046162C00E6862C /* ColorUtils.swift */,
+				1B8CBC5B2046162C00E6862C /* ColorWheel.swift */,
+				1B8CBC5C2046162C00E6862C /* SelectedColorView.swift */,
+				1B8CBC5A2046162C00E6862C /* SwiftHSVColorPicker.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		3400D034E03260407225D8F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B22A2FE1E28AC1C00E6D0ED /* CameraHelper.m */,
+				1B8CBC142044F99700E6862C /* Headers */,
+				1B8CBC132044F99700E6862C /* Local Podspecs */,
+				1B8CBC152044F99700E6862C /* Manifest.lock */,
+				1B8CBC162044F99700E6862C /* MBProgressHUD */,
+				1B8CBC182044F99700E6862C /* Pods.xcodeproj */,
+				1B8CBC172044F99700E6862C /* Target Support Files */,
+				2E0F7F31B843177FF31E48EA /* Pods-HoopsCam.debug.xcconfig */,
+				22A6E0D3DC0286EDCF42586A /* Pods-HoopsCam.release.xcconfig */,
+				D93405C49C848BC61BD228E6 /* Pods-HoopsCamTests.debug.xcconfig */,
+				03B10AC517A0E1171DB57AD9 /* Pods-HoopsCamTests.release.xcconfig */,
+				C38E60CAE2E1153AD207C5A4 /* Pods-HoopsCamUITests.debug.xcconfig */,
+				42463659D6862E5F79A6352D /* Pods-HoopsCamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68161E3E2041C0A8002040A8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B22A2FD1E28AC1C00E6D0ED /* CameraHelper.h */,
+				68161E3F2041C0A8002040A8 /* Utils.h */,
+				68161E402041C0A8002040A8 /* Utils.m */,
+				68161E32204014C1002040A8 /* AudioRecorder.h */,
+				68161E33204014C1002040A8 /* AudioRecorder.m */,
+				6B60411C1E28EBEE0050036B /* ScreenRecorder.h */,
+				6B60411D1E28EBEE0050036B /* ScreenRecorder.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6B60411F1E28EC180050036B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6041201E28EC180050036B /* CoreGraphics.framework */,
+				02124F3B0E9404DFD6F4138D /* libPods-HoopsCam.a */,
+				B1472199A19E2CA0A1303436 /* libPods-HoopsCamTests.a */,
+				5CCE09339B7F65565539E7B8 /* libPods-HoopsCamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8CF19F1BCBC47100395ED0 = {
+			isa = PBXGroup;
+			children = (
+				18E3703C2044000400027174 /* hoopscam */,
+				FC8CF1A91BCBC47200395ED0 /* Products */,
+				6B60411F1E28EC180050036B /* Frameworks */,
+				3400D034E03260407225D8F1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8CF1A91BCBC47200395ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8CF1A81BCBC47200395ED0 /* HoopsCam.app */,
+				FC8CF1C11BCBC47200395ED0 /* HoopsCamTests.xctest */,
+				FC8CF1CC1BCBC47200395ED0 /* HoopsCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8CF1A71BCBC47200395ED0 /* HoopsCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8CF1D51BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCam" */;
+			buildPhases = (
+				DD5FA6C6207DD52DA9242CC9 /* [CP] Check Pods Manifest.lock */,
+				FC8CF1A41BCBC47200395ED0 /* Sources */,
+				FC8CF1A51BCBC47200395ED0 /* Frameworks */,
+				FC8CF1A61BCBC47200395ED0 /* Resources */,
+				817210C29543D2D63048B9CE /* [CP] Embed Pods Frameworks */,
+				DBE18C157015260E0D9408B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoopsCam;
+			productName = videoRecord;
+			productReference = FC8CF1A81BCBC47200395ED0 /* HoopsCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8CF1C01BCBC47200395ED0 /* HoopsCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8CF1D81BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCamTests" */;
+			buildPhases = (
+				38ED2F7AD17F82C73DA64BE4 /* [CP] Check Pods Manifest.lock */,
+				FC8CF1BD1BCBC47200395ED0 /* Sources */,
+				FC8CF1BE1BCBC47200395ED0 /* Frameworks */,
+				FC8CF1BF1BCBC47200395ED0 /* Resources */,
+				F24F29F5712BDAB44DCEF39E /* [CP] Embed Pods Frameworks */,
+				C8AD4C03BAEF38FD85C0BCA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8CF1C31BCBC47200395ED0 /* PBXTargetDependency */,
+			);
+			name = HoopsCamTests;
+			productName = videoRecordTests;
+			productReference = FC8CF1C11BCBC47200395ED0 /* HoopsCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC8CF1CB1BCBC47200395ED0 /* HoopsCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8CF1DB1BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCamUITests" */;
+			buildPhases = (
+				24644D7CA1FCB409199FFBAB /* [CP] Check Pods Manifest.lock */,
+				FC8CF1C81BCBC47200395ED0 /* Sources */,
+				FC8CF1C91BCBC47200395ED0 /* Frameworks */,
+				FC8CF1CA1BCBC47200395ED0 /* Resources */,
+				F66A12338A90809A2B2A558E /* [CP] Embed Pods Frameworks */,
+				72F5787E7561CD2365C1F424 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8CF1CE1BCBC47200395ED0 /* PBXTargetDependency */,
+			);
+			name = HoopsCamUITests;
+			productName = videoRecordUITests;
+			productReference = FC8CF1CC1BCBC47200395ED0 /* HoopsCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8CF1A01BCBC47100395ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lieyunye;
+				TargetAttributes = {
+					FC8CF1A71BCBC47200395ED0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9985RSDG2C;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					FC8CF1C01BCBC47200395ED0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FC8CF1A71BCBC47200395ED0;
+					};
+					FC8CF1CB1BCBC47200395ED0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FC8CF1A71BCBC47200395ED0;
+					};
+				};
+			};
+			buildConfigurationList = FC8CF1A31BCBC47100395ED0 /* Build configuration list for PBXProject "HoopsCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8CF19F1BCBC47100395ED0;
+			productRefGroup = FC8CF1A91BCBC47200395ED0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1B8CBC192044F99700E6862C /* Products */;
+					ProjectRef = 1B8CBC182044F99700E6862C /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FC8CF1A71BCBC47200395ED0 /* HoopsCam */,
+				FC8CF1C01BCBC47200395ED0 /* HoopsCamTests */,
+				FC8CF1CB1BCBC47200395ED0 /* HoopsCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1B8CBC202044F99700E6862C /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = 1B8CBC1F2044F99700E6862C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B8CBC222044F99700E6862C /* libPods-HoopsCam.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-HoopsCam.a";
+			remoteRef = 1B8CBC212044F99700E6862C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B8CBC242044F99700E6862C /* libPods-HoopsCamTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-HoopsCamTests.a";
+			remoteRef = 1B8CBC232044F99700E6862C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B8CBC262044F99700E6862C /* libPods-HoopsCamUITests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-HoopsCamUITests.a";
+			remoteRef = 1B8CBC252044F99700E6862C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8CF1A61BCBC47200395ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B654752044B86A00C55EA1 /* Info.plist in Resources */,
+				68B654742044B86A00C55EA1 /* LaunchScreen.storyboard in Resources */,
+				1B8CBC2A2044F99700E6862C /* MBProgressHUD in Resources */,
+				18E3708E2044386500027174 /* Assets.xcassets in Resources */,
+				1B8CBC282044F99700E6862C /* Headers in Resources */,
+				1B8CBC292044F99700E6862C /* Manifest.lock in Resources */,
+				68B654732044B86A00C55EA1 /* Main.storyboard in Resources */,
+				1B8CBC2B2044F99700E6862C /* Target Support Files in Resources */,
+				1B8CBC272044F99700E6862C /* Local Podspecs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1BF1BCBC47200395ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1CA1BCBC47200395ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24644D7CA1FCB409199FFBAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoopsCamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38ED2F7AD17F82C73DA64BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoopsCamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F5787E7561CD2365C1F424 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCamUITests/Pods-HoopsCamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817210C29543D2D63048B9CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCam/Pods-HoopsCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD4C03BAEF38FD85C0BCA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCamTests/Pods-HoopsCamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE18C157015260E0D9408B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCam/Pods-HoopsCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5FA6C6207DD52DA9242CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoopsCam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24F29F5712BDAB44DCEF39E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCamTests/Pods-HoopsCamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66A12338A90809A2B2A558E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopsCamUITests/Pods-HoopsCamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8CF1A41BCBC47200395ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8CBC622046162C00E6862C /* ColorUtils.swift in Sources */,
+				6B22A2FF1E28AC1C00E6D0ED /* CameraHelper.m in Sources */,
+				68161E3A204014C1002040A8 /* AudioRecorder.m in Sources */,
+				18E37074204422F400027174 /* SettingViewController.swift in Sources */,
+				1B8CBC5F2046162C00E6862C /* SwiftHSVColorPicker.swift in Sources */,
+				1B8CBC602046162C00E6862C /* ColorWheel.swift in Sources */,
+				6B60411E1E28EBEE0050036B /* ScreenRecorder.m in Sources */,
+				18E3703F2044013B00027174 /* RecordViewController.swift in Sources */,
+				68161E412041C0A8002040A8 /* Utils.m in Sources */,
+				18E370922044386500027174 /* main.m in Sources */,
+				1B8CBC612046162C00E6862C /* SelectedColorView.swift in Sources */,
+				1B8CBC672049EFF500E6862C /* EventsViewController.swift in Sources */,
+				FC8CF1B01BCBC47200395ED0 /* AppDelegate.m in Sources */,
+				1B8CBC5E2046162C00E6862C /* BrightnessView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1BD1BCBC47200395ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8CF1C81BCBC47200395ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8CF1C31BCBC47200395ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8CF1A71BCBC47200395ED0 /* HoopsCam */;
+			targetProxy = FC8CF1C21BCBC47200395ED0 /* PBXContainerItemProxy */;
+		};
+		FC8CF1CE1BCBC47200395ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8CF1A71BCBC47200395ED0 /* HoopsCam */;
+			targetProxy = FC8CF1CD1BCBC47200395ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC8CF1D31BCBC47200395ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC8CF1D41BCBC47200395ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8CF1D61BCBC47200395ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F7F31B843177FF31E48EA /* Pods-HoopsCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: frank alber (97X6UUC3HK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9985RSDG2C;
+				INFOPLIST_FILE = hoopscam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angular.synergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoopsCam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FC8CF1D71BCBC47200395ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A6E0D3DC0286EDCF42586A /* Pods-HoopsCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: frank alber (97X6UUC3HK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9985RSDG2C;
+				INFOPLIST_FILE = hoopscam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angular.synergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoopsCam-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FC8CF1D91BCBC47200395ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93405C49C848BC61BD228E6 /* Pods-HoopsCamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = videoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.videoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopsCam.app/HoopsCam";
+			};
+			name = Debug;
+		};
+		FC8CF1DA1BCBC47200395ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B10AC517A0E1171DB57AD9 /* Pods-HoopsCamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = videoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.videoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopsCam.app/HoopsCam";
+			};
+			name = Release;
+		};
+		FC8CF1DC1BCBC47200395ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38E60CAE2E1153AD207C5A4 /* Pods-HoopsCamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = videoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.videoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC8CF1DD1BCBC47200395ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42463659D6862E5F79A6352D /* Pods-HoopsCamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = videoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.videoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8CF1A31BCBC47100395ED0 /* Build configuration list for PBXProject "HoopsCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8CF1D31BCBC47200395ED0 /* Debug */,
+				FC8CF1D41BCBC47200395ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8CF1D51BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8CF1D61BCBC47200395ED0 /* Debug */,
+				FC8CF1D71BCBC47200395ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8CF1D81BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8CF1D91BCBC47200395ED0 /* Debug */,
+				FC8CF1DA1BCBC47200395ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8CF1DB1BCBC47200395ED0 /* Build configuration list for PBXNativeTarget "HoopsCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8CF1DC1BCBC47200395ED0 /* Debug */,
+				FC8CF1DD1BCBC47200395ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8CF1A01BCBC47100395ED0 /* Project object */;
+}
